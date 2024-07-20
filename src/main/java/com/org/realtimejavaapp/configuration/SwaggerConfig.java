@@ -17,17 +17,3 @@ public class SwaggerConfig {
 				.paths(PathSelectors.any()).build();
 	}
 	}
-
-
-/*
- * @Bean public Docket getDocket() { return new
- * Docket(DocumentationType.SWAGGER_2).groupName("public-apis").apiInfo(
- * getApiInfo()) //
- * .select().apis(RequestHandlerSelectors.basePackage("com.org.java.Controllers"
- * )) .select().apis(RequestHandlerSelectors.withClassAnnotation(RestController.
- * class)).build(); }
- * 
- * public ApiInfo getApiInfo() { return new
- * ApiInfoBuilder().title("code-decode-apis").
- * description("api created by sreenu").version("1").build(); } }
- */
