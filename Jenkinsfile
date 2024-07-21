@@ -13,7 +13,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    bat 'docker build -t srinu255/springboot-realtime-endtoend .'
+                    bat 'docker build -t srinu255/springboot-realtime-endtoenddocker .'
                 }
             }
         

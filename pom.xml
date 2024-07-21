@@ -101,7 +101,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>springboot-realtime-endtoend</finalName>
+		<finalName>springboot-realtime-endtoenddocker</finalName>
 		<plugins>
 			<plugin>
     <groupId>org.apache.maven.plugins</groupId>
