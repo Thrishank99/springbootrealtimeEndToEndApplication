@@ -1,6 +1,6 @@
 spring:
   application:
-    name: SpringbootRealtimeApplicationEndToEnd
+    name: SpringbootRealtimeDevApplicationEndToEnd
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
@@ -10,15 +10,12 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL8Dialect
-#  profiles:
-#    active:
-#    - test
+server:
+  port: 8081    
 logging:
   file:
     name: C:/Users/Welcome/OneDrive/Desktop/logs/SpringbootRealTimeEndToEnd.log
-    
 management:
   tracing:
     sampling:
       probability: 1.0
-          
